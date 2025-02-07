@@ -8,8 +8,9 @@ namespace Tests.Runtime
 {
     /// <summary>
     /// Test result not display in Test Runner window.
+    /// Fixed in Unity 6000.0.36f1, 6000.1.0b3, 7000.0.0a17
     /// </summary>
-    /// <see href="https://unity3d.atlassian.net/servicedesk/customer/portal/2/IN-89366"/>
+    /// <see href="https://issuetracker.unity3d.com/product/unity/issues/guid/UUM-91799"/>
     [TestFixture]
     public class AssertXmlProblem
     {
