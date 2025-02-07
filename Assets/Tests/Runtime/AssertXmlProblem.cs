@@ -12,6 +12,7 @@ namespace Tests.Runtime
     /// </summary>
     /// <see href="https://issuetracker.unity3d.com/product/unity/issues/guid/UUM-91799"/>
     [TestFixture]
+    [Explicit("Fixed issue")]
     public class AssertXmlProblem
     {
         [Test]
