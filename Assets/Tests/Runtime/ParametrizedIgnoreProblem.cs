@@ -10,8 +10,9 @@ namespace Tests.Runtime
 {
     /// <summary>
     /// NotImplementedException occurs when combining ParametrizedIgnoreAttribute with async test.
+    /// Fixed in test-framework v1.4.6
     /// </summary>
-    /// <see href="https://unity3d.atlassian.net/servicedesk/customer/portal/2/IN-89363"/>
+    /// <see href="https://issuetracker.unity3d.com/product/unity/issues/guid/DSTR-1068"/>
     [TestFixture]
     public class ParametrizedIgnoreProblem
     {
